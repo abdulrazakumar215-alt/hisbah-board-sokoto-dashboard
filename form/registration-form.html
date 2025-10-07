@@ -1,14 +1,25 @@
-hisbah-board-sokoto-dashboard/
-├── README.md
-├── LICENSE
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-─ src/
-│   ├── index.html
-│   ├── style.css
-│   └── dashboard.js
-├── forms/
-│   └── registration-form.html
-├── assets/
-│   └── logo.png (saka hoton logo daga wayarka)
+<form>
+  <h2>Fom ɗin Rijista – Hisbah Board Sokoto</h2>
+  <label>Suna:</label>
+  <input type="text" name="fullName" required />
+
+  <label>Ranar Haihuwa:</label>
+  <input type="date" name="dob" required />
+
+  <label>Jinsi:</label>
+  <select name="gender">
+    <option>Namiji</option>
+    <option>Mace</option>
+  </select>
+
+  <label>Lambar Waya:</label>
+  <input type="tel" name="phone" required />
+
+  <label>Upload Passport:</label>
+  <input type="file" name="passport" accept="image/*" />
+
+  <label>Upload ID Card:</label>
+  <input type="file" name="idCard" accept="image/*" />
+
+  <button type="submit">Aika</button>
+</form>
