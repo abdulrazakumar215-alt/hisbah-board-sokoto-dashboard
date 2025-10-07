@@ -1,2 +1,15 @@
 # hisbah-board-sokoto-dashboard
 hisbah-board-sokoto-dashboard/ ├── README.md ├── LICENSE ├── .github/ │   └── workflows/ │       └── ci.yml ├── src/ │   ├── index.html │   ├── style.css │   └── dashboard.js ├── forms/ │   └── registration-form.html ├── assets/ │   └── logo.png (saka hoton logo daga wayarka)
+
+# Hisbah Board Sokoto Dashboard
+
+Dashboard don bibiyar rahotanni da rijistar ma’aikata na Hisbah Board Sokoto.
+
+## Features
+- Fom ɗin rijista
+- Upload na passport da ID
+- Tacewa da bincike
+- Admin login da izini
+
+## Build Status
+![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/hisbah-board-sokoto-dashboard/ci.yml)
