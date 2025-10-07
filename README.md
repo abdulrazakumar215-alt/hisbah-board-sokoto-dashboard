@@ -5,7 +5,7 @@ hisbah-board-sokoto-dashboard/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
-─ src/
+─ documentation/
 │   ├── index.html
 │   ├── style.css
 │   └── dashboard.js
@@ -14,6 +14,7 @@ hisbah-board-sokoto-dashboard/
 ├── assets/
 │   └── logo.png (saka hoton logo daga wayarka)
 
+markdown 
 Dashboard don bibiyar rahotanni da rijistar ma’aikata na Hisbah Board Sokoto.
 
 ## Features
