@@ -1,14 +1,26 @@
-hisbah-board-sokoto-dashboard/
-├── README.md
-├── LICENSE
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-─ src/
-│   ├── index.html
-│   ├── style.css
-│   └── dashboard.js
-├── forms/
-│   └── registration-form.html
-├── assets/
-│   └── logo.png (saka hoton logo daga wayarka)
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#recentReports ul {
+  list-style: none;
+  padding: 0;
+  }
