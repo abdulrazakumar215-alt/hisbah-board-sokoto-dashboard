@@ -1,25 +1,43 @@
-<form>
-  <h2>Fom ɗin Rijista – Hisbah Board Sokoto</h2>
-  <label>Suna:</label>
-  <input type="text" name="fullName" required />
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fom ɗin Rijistar Ma’aikata</title>
+  <link rel="stylesheet" href="../docs/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rijistar Ma’aikata - Hisbah Board Sokoto</h1>
+  </header>
 
-  <label>Ranar Haihuwa:</label>
-  <input type="date" name="dob" required />
+  <section>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="fullName">Cikakken Suna:</label><br />
+      <input type="text" id="fullName" name="fullName" required /><br /><br />
 
-  <label>Jinsi:</label>
-  <select name="gender">
-    <option>Namiji</option>
-    <option>Mace</option>
-  </select>
+      <label for="gender">Jinsi:</label><br />
+      <select id="gender" name="gender" required>
+        <option value="">Zaɓi</option>
+        <option value="male">Namiji</option>
+        <option value="female">Mace</option>
+      </select><br /><br />
 
-  <label>Lambar Waya:</label>
-  <input type="tel" name="phone" required />
+      <label for="position">Matsayi:</label><br />
+      <input type="text" id="position" name="position" required /><br /><br />
 
-  <label>Upload Passport:</label>
-  <input type="file" name="passport" accept="image/*" />
+      <label for="passport">Passport ɗin Hoto:</label><br />
+      <input type="file" id="passport" name="passport" accept="image/*" required /><br /><br />
 
-  <label>Upload ID Card:</label>
-  <input type="file" name="idCard" accept="image/*" />
+      <label for="idCard">ID Card:</label><br />
+      <input type="file" id="idCard" name="idCard" accept="image/*" required /><br /><br />
 
-  <button type="submit">Aika</button>
-</form>
+      <button type="submit">Aika Rijista</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hisbah Board Sokoto. Duk haƙƙi na ajiye.</p>
+  </footer>
+</body>
+</html>
