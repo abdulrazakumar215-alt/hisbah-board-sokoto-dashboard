@@ -1,33 +1,43 @@
-‎<!DOCTYPE html>
-‎<html lang="ha">
-‎<head>
-‎  <meta charset="UTF-8" />
-‎  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-‎  <title>Dashboard na Hisbah Board Sokoto</title>
-‎  <link rel="stylesheet" href="style.css" />
-‎</head>
-‎<body>
-‎  <header>
-‎    <h1>Dashboard na Hisbah Board Sokoto</h1>
-‎  </header>
-‎
-‎  <section id="stats">
-‎    <div class="card">Rahotanni: <span id="reportCount">0</span></div>
-‎    <div class="card">Masu Rijista: <span id="userCount">0</span></div>
-‎  </section>
-‎
-‎  <section id="recentReports">
-‎    <h2>Rahotanni na Karshe</h2>
-‎    <ul id="reportList"></ul>
-‎  </section>
-‎
-‎  <script src="dashboard.js"></script>
-‎</body>
-‎  </html>
-‎<header>
-‎  <img src="../assets/logo.png" alt="Hisbah Logo" width="80" />
-‎  <h1>Dashboard na Hisbah Board Sokoto</h1>
-‎</header>
-<link rel="stylesheet" href="style.css" />
-<script src="dashboard.js"></script>
-<img src="../assets/logo.png" alt="Hisbah Logo" />
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard na Hisbah Board Sokoto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="../assets/logo.png" alt="Hisbah Logo" width="80" />
+    <h1>Dashboard na Hisbah Board Sokoto</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../forms/registration-form.html">Rijistar Ma’aikata</a></li>
+      <li><a href="#">Rahotanni</a></li>
+      <li><a href="#">Admin Login</a></li>
+    </ul>
+  </nav>
+
+  <section id="stats">
+    <div class="card">Rahotanni: <span id="reportCount">0</span></div>
+    <div class="card">Masu Rijista: <span id="userCount">0</span></div>
+  </section>
+
+  <section id="recentReports">
+    <h2>Rahotanni na Karshe</h2>
+    <ul id="reportList">
+      <li>Rahoto 1: Rikici a kasuwa</li>
+      <li>Rahoto 2: Ƙarar hayaniya a unguwa</li>
+      <li>Rahoto 3: Taimakon mata da yara</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hisbah Board Sokoto. Duk haƙƙi na ajiye.</p>
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+    </html>
