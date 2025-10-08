@@ -1,19 +1,23 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const reportCount = document.getElementById("reportCount");
-  const userCount = document.getElementById("userCount");
-  const reportList = document.getElementById("reportList");
+// Dummy data don misali
+const reports = [
+  "Rikici a kasuwa",
+  "Ƙarar hayaniya a unguwa",
+  "Taimakon mata da yara",
+  "Rahoton cin zarafi",
+  "Gudanar da taron wayar da kai"
+];
 
-  const reports = [
-    { name: "Musa Ibrahim", location: "Lafia", issue: "Rashin tsaro" },
-    { name: "Amina Bello", location: "Doma", issue: "Gobara" }
-  ];
+const registeredUsers = 128;
+const totalReports = reports.length;
 
-  reportCount.textContent = reports.length;
-  userCount.textContent = 42;
+// Saita adadin rahotanni da masu rijista
+document.getElementById("reportCount").textContent = totalReports;
+document.getElementById("userCount").textContent = registeredUsers;
 
-  reports.forEach(report => {
-    const li = document.createElement("li");
-    li.textContent = `${report.name} - ${report.location} - ${report.issue}`;
-    reportList.appendChild(li);
-  });
+// Cika jerin rahotanni
+const reportList = document.getElementById("reportList");
+reports.forEach((report) => {
+  const li = document.createElement("li");
+  li.textContent = report;
+  reportList.appendChild(li);
 });
