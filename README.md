@@ -1,5 +1,3 @@
-`markdown
-
 🛡️ Hisbah Board Sokoto Dashboard
 
 Wannan dashboard app an ƙirƙira shi don taimakawa Hisbah Board Sokoto wajen bibiyar rahotanni, rijistar ma’aikata, da gudanar da ayyuka cikin sauƙi da tsari. An gina shi da HTML, CSS, da JavaScript kuma yana aiki kai tsaye ta GitHub Pages.
