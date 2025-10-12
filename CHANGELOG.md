@@ -1,40 +1,43 @@
-# 📜 CHANGELOG
 
-Wannan takarda tana bayyana duk sabbin abubuwa da canje-canje da aka yi a cikin aikin Hisbah Board Sokoto Dashboard.
+📜 CHANGELOG
 
----
-
-## [1.0.0] - 2025-10-12
-
-### ✅ Saki na Farko (Initial Release)
-
-- ✅ An ƙirƙira dashboard na Hisbah Board Sokoto
-- 📄 An ƙara `README.md` da bayani mai cikakken tsari
-- 🌐 An ƙara `docs/index.html` don UI na dashboard
-- 🎨 An ƙara `docs/style.css` don tsara salo da launuka
-- ⚙️ An ƙara `docs/dashboard.js` don sarrafa bayanai da rahotanni
-- 📝 An ƙara `forms/registration-form.html` don rijistar ma’aikata
-- 📜 An ƙara `LICENSE` da lasisin MIT
-- 🔁 An ƙara `.github/workflows/ci.yml` don GitHub Actions workflow
-- 🧾 An ƙara `CHANGELOG.md` don bin diddigin canje-cange
-- 🤝 An ƙara `CONTRIBUTING.md` don masu gudunmawa
+This document outlines all updates and changes made to the Hisbah Board Sokoto Dashboard project.
 
 ---
 
-## [1.1.0] - *A jira saki na gaba*
+[1.0.0] – 2025-10-12
 
-### 🔄 Ana shirin:
+✅ Initial Release
 
-- 🔐 Ƙara login na admin da izini
-- 📊 Ƙara charts don nazarin rahotanni
-- 🌍 Fassarar dashboard zuwa harshen Turanci da Hausa
-- 🧠 Ƙara shafi na taimako (`help.html`) da tambayoyi (`faq.html`)
-- 📱 Inganta responsive design don wayar hannu
+- ✅ Created the Hisbah Board Sokoto Dashboard
+- 📄 Added README.md with detailed project overview
+- 🌐 Added docs/index.html for the dashboard UI
+- 🎨 Added docs/style.css for layout and styling
+- ⚙️ Added docs/dashboard.js for data handling and report logic
+- 📝 Added forms/registration-form.html for staff registration
+- 📜 Added LICENSE under the MIT License
+- 🔁 Added .github/workflows/ci.yml for GitHub Actions automation
+- 🧾 Added CHANGELOG.md to track project changes
+- 🤝 Added CONTRIBUTING.md to guide contributors
 
 ---
 
-## 🗓️ Tarihin Aiki
+[1.1.0] – Upcoming Release
 
-- Aikin ya fara: Oktoba 2025
-- Saki na farko: 12 Oktoba 2025
-- Mai haɓakawa: [@abdulrazakumar](https://abdulrazakumar215-alt.github.io/hisbah-board-sokoto-dashboard/)
+🔄 Planned Features:
+
+- 🔐 Admin login and access control
+- 📊 Interactive charts for report analytics
+- 🌍 Language translation support (English ↔ Hausa)
+- 🧠 Help page (help.html) and FAQ section (faq.html)
+- 📱 Enhanced responsive design for mobile devices
+
+---
+
+🗓️ Project Timeline
+
+- Project started: October 2025  
+- First release: 12 October 2025  
+- Lead developer: Abdulrazak Umar @abdulrazakumar215-atl  
+- Supported by: Hisbah Board of Sokoto State
+- 
