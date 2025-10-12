@@ -1,94 +1,23 @@
-/* Tsarin jiki */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
+// Dummy data for demonstration
+const reports = [
+  "Conflict at the market",
+  "Noise complaint in the neighborhood",
+  "Support for women and children",
+  "Report of abuse",
+  "Community awareness event"
+];
 
-/* Header */
-header {
-  background-color: #006400;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+const registeredUsers = 128;
+const totalReports = reports.length;
 
-header img {
-  vertical-align: middle;
-  margin-right: 10px;
-}
+// Set report and user counts
+document.getElementById("reportCount").textContent = totalReports;
+document.getElementById("userCount").textContent = registeredUsers;
 
-/* Navigation */
-nav {
-  background-color: #eee;
-  padding: 10px;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #006400;
-  font-weight: bold;
-}
-
-/* Cards */
-#stats {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 200px;
-  text-align: center;
-  font-size: 18px;
-}
-
-/* Reports */
-#recentReports {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-#recentReports h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#reportList {
-  background-color: white;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-#reportList li {
-  margin-bottom: 8px;
-}
-
-/* Footer */
-footer {
-  background-color: #006400;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
-  }
+// Populate recent reports list
+const reportList = document.getElementById("reportList");
+reports.forEach((report) => {
+  const li = document.createElement("li");
+  li.textContent = report;
+  reportList.appendChild(li);
+});
