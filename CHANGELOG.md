@@ -37,4 +37,4 @@ Wannan takarda tana bayyana duk sabbin abubuwa da canje-canje da aka yi a cikin 
 
 - Aikin ya fara: Oktoba 2025
 - Saki na farko: 12 Oktoba 2025
-- Mai haɓakawa: [@abdulrazakumar](https://github.com/sokotodev)
+- Mai haɓakawa: [@abdulrazakumar](https://abdulrazakumar215-alt.github.io/hisbah-board-sokoto-dashboard/)
