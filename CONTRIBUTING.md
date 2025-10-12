@@ -1,64 +1,61 @@
-`markdown
+markdown
 
 🤝 CONTRIBUTING GUIDE
 
-Muna maraba da gudunmawa daga duk masu sha'awar taimakawa aikin Hisbah Board Sokoto Dashboard. Ga yadda za ka iya bada gudunmawa:
+We welcome contributions from anyone interested in improving the Hisbah Board Sokoto Dashboard. Here's how you can get involved:
 
 ---
 
-🧰 Abubuwan Da Za Ka Iya Yi
+🧰 Ways You Can Contribute
 
-- Gyara kurakurai a cikin code
-- Ƙara sabbin features (e.g. charts, login, fassara)
-- Inganta UI/UX
-- Fassara dashboard zuwa harshen Hausa/Turanci
-- Rubuta documentation ko README
-- Bayar da shawarwari ko buɗe issue
+- Fix bugs or errors in the code  
+- Add new features (e.g. charts, login system, translations)  
+- Improve UI/UX design  
+- Translate the dashboard into Hausa or English  
+- Write documentation or improve the README  
+- Suggest ideas or open issues  
 
 ---
 
-📦 Yadda Ake Gudunmawa
+📦 How to Contribute
 
-1. Fork repo ɗin
-2. Clone repo ɗin:
+1. Fork the repository  
+2. Clone the repository:
    `bash
-   git clone https://github.com/sokotodev/hisbah-board-sokoto-dashboard.git
+   git clone https://github.com/abdulrazakumar215-atl/hisbah-board-sokoto-dashboard.git
    `
-
-3. Ƙirƙiri sabon branch:
+3. Create a new branch:
    `bash
-   git checkout -b sunan-branch-dinka
+   git checkout -b your-branch-name
    `
-
-4. Yi canje-canje, sannan ka commit:
+4. Make your changes, then commit:
    `bash
-   git commit -m "Bayani kan abin da ka canza"
+   git commit -m "Description of your changes"
    `
-
-5. Push zuwa GitHub:
+5. Push to GitHub:
    `bash
-   git push origin sunan-branch-dinka
+   git push origin your-branch-name
    `
-
-6. Aika Pull Request daga GitHub dashboard
+6. Submit a Pull Request from the GitHub dashboard
 
 ---
 
-🛡️ Ka Tabbatar Da:
+🛡️ Please Make Sure To:
 
-- Ka bi tsarin coding da aka riga aka saita
-- Ka tabbatar da cewa dashboard yana aiki bayan canje-cankenka
-- Ka bayyana canje-cankenka a cikin CHANGELOG.md idan sun fi sauki
-
----
-
-📬 Tuntuɓi
-
-Idan kana da tambaya ko shawara, za ka iya tuntuɓar:
-Email: hisbahboardsokotooffice@gmail.com  
-GitHub Profile: @sokotodev
+- Follow the existing coding style and structure  
+- Ensure the dashboard works properly after your changes  
+- Document your changes in CHANGELOG.md if relevant  
 
 ---
 
-Muna godiya da gudunmawarka — tare za mu inganta dashboard ɗin Hisbah Board Sokoto!
+👤 Lead Developer
+
+- Abdulrazak Umar  
+  GitHub: @abdulrazakumar215-atl  
+  Repository: Hisbah Board Sokoto Dashboard  
+  Email: hisbahboardsokotooffice@gmail.com
+
+---
+
+Thank you for your contribution — together we can improve the Hisbah Board Sokoto Dashboard! 💻🌍
 `
