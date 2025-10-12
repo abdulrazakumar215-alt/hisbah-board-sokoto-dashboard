@@ -7,7 +7,7 @@ Wannan dashboard app an ƙirƙira shi don taimakawa Hisbah Board Sokoto wajen bi
 🌐 Live Demo
 
 Ziyarci dashboard ɗin kai tsaye:  
-👉 https://sokotodev.github.io/hisbah-board-sokoto-dashboard/
+👉 https://abdulrazakumar215-atldev.github.io/hisbah-board-sokoto-dashboard/
 
 ---
 
@@ -48,7 +48,7 @@ hisbah-board-sokoto-dashboard/
 
 1. Clone repo:
    `bash
-   git clone https://github.com/sokotodev/hisbah-board-sokoto-dashboard.git
+   git clone https://github.com/abdulrazakumar215-atldev/hisbah-board-sokoto-dashboard.git
    `
 
 2. Je zuwa folder:
@@ -95,7 +95,7 @@ Ana maraba da gudunmawa daga developers, masu gwaji, da masu amfani. Za ka iya:
 📬 Tuntuɓi
 
 Email: hisbahboardsokotooffice@gmail.com  
-GitHub Profile: @sokotodev
+GitHub Profile: @abdulrazakumardev
 
 ---
 
