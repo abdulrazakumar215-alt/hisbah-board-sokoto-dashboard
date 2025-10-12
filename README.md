@@ -48,7 +48,7 @@ hisbah-board-sokoto-dashboard/
 
 1. Clone repo:
    `bash
-   git clone https://github.com/abdulrazakumar215-atldev/hisbah-board-sokoto-dashboard.git
+   git clone https://github.com/abdulrazakumar215-atl/hisbah-board-sokoto-dashboard.git
    `
 
 2. Je zuwa folder:
