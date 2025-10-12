@@ -7,7 +7,7 @@ Wannan dashboard app an ƙirƙira shi don taimakawa Hisbah Board Sokoto wajen bi
 🌐 Live Demo
 
 Ziyarci dashboard ɗin kai tsaye:  
-👉 https://abdulrazakumar215-atldev.github.io/hisbah-board-sokoto-dashboard/
+👉 https://abdulrazakumar215-atl.github.io/hisbah-board-sokoto-dashboard/
 
 ---
 
@@ -95,7 +95,7 @@ Ana maraba da gudunmawa daga developers, masu gwaji, da masu amfani. Za ka iya:
 📬 Tuntuɓi
 
 Email: hisbahboardsokotooffice@gmail.com  
-GitHub Profile: @abdulrazakumardev
+GitHub Profile: @abdulrazakumar
 
 ---
 
