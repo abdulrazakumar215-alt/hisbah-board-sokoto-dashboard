@@ -1,17 +1,18 @@
+markdown
 🛡️ Hisbah Board Sokoto Dashboard
 
-Wannan dashboard app an ƙirƙira shi don taimakawa Hisbah Board Sokoto wajen bibiyar rahotanni, rijistar ma’aikata, da gudanar da ayyuka cikin sauƙi da tsari. An gina shi da HTML, CSS, da JavaScript kuma yana aiki kai tsaye ta GitHub Pages.
+This dashboard app was created to support Hisbah Board Sokoto in tracking reports, registering staff, and managing operations efficiently. It is built with HTML, CSS, and JavaScript, and runs directly via GitHub Pages.
 
 ---
 
 🌐 Live Demo
 
-Ziyarci dashboard ɗin kai tsaye:  
+Visit the live dashboard:  
 👉 https://abdulrazakumar215-atl.github.io/hisbah-board-sokoto-dashboard/
 
 ---
 
-📦 Tsarin Repo
+📦 Repository Structure
 
 `
 hisbah-board-sokoto-dashboard/
@@ -28,80 +29,79 @@ hisbah-board-sokoto-dashboard/
 │   └── registration-form.html
 ├── assets/
 │   └── logo.png
-|-Contributing.md 
-|-Gitignore.md 
-|-changelog.mda
+├── Contributing.md
+├── Gitignore.md
+├── changelog.md
+`
 
-> Lura: docs/ folder yana ɗauke da dashboard files don GitHub Pages.
+> Note: The docs/ folder contains all dashboard files for GitHub Pages deployment.
 
 ---
 
 🚀 Features
 
-- 📋 Fom ɗin rijista da upload na passport da ID
-- 📊 Bibiyar rahotanni da adadin masu rijista
-- 🔍 Tacewa da bincike na rahotanni
-- 🔐 Admin login da izini (za a ƙara)
-- 📱 Responsive UI don wayar hannu da kwamfuta
+- 📋 Staff registration form with passport and ID upload  
+- 📊 Report tracking and user registration count  
+- 🔍 Report filtering and search (coming soon)  
+- 🔐 Admin login and access control (coming soon)  
+- 📱 Responsive UI for mobile and desktop  
 
 ---
 
-🛠️ Yadda Ake Amfani
+🛠️ How to Use
 
-1. Clone repo:
-   `bash
-   git clone https://github.com/abdulrazakumar215-atl/hisbah-board-sokoto-dashboard.git
-   `
+Clone the repository:
+`bash
+git clone https://github.com/abdulrazakumar215-atl/hisbah-board-sokoto-dashboard.git
+`
 
-2. Je zuwa folder:
-   `bash
-   cd hisbah-board-sokoto-dashboard
-   `
+Navigate to the folder:
+`bash
+cd hisbah-board-sokoto-dashboard
+`
 
-3. Buɗe docs/index.html a browser don ganin dashboard
+Open the dashboard in your browser:
+`bash
+docs/index.html
+`
 
-4. Yi build na Android app (idan kana da React Native version):
-   `bash
-   cd android
-   ./gradlew assembleRelease
-   `
+Build Android app (if using React Native version):
+`bash
+cd android
+./gradlew assembleRelease
+`
 
 ---
 
 ⚙️ GitHub Actions CI
 
-Wannan repo yana amfani da GitHub Actions don gina app kai tsaye duk lokacin da aka yi push zuwa main branch.
-
-!Build Status
-!License: MIT
-!Version
+This repository uses GitHub Actions to automatically build and deploy the app whenever changes are pushed to the main branch.
 
 ---
 
-📄 LICENSE
+📄 License
 
-Wannan aikin yana ƙarƙashin lasisin MIT. Za ka iya amfani da shi, gyara shi, da rarraba shi cikin 'yanci.
-
----
-
-🤝 Gudunmawa
-
-Ana maraba da gudunmawa daga developers, masu gwaji, da masu amfani. Za ka iya:
-
-- Buɗe issue don rahoton matsala
-- Aika pull request don sabbin features
-- Taimaka da fassarar dashboard zuwa harsuna daban-daban
+This project is licensed under the MIT License. You are free to use, modify, and distribute it.
 
 ---
 
-📬 Tuntuɓi
+🤝 Contributions
 
-Email: hisbahboardsokotooffice@gmail.com  
-GitHub Profile: @abdulrazakumar
+We welcome contributions from developers, testers, and users. You can:
+
+- Open issues to report bugs  
+- Submit pull requests for new features  
+- Help translate the dashboard into other languages  
 
 ---
 
-🌍 Goyon Bayan
+📬 Contact
 
-Wannan aikin yana goyon bayan Hisbah Board Sokoto da ci gaban fasaha a Najeriya. Muna fatan dashboard ɗin zai taimaka wajen inganta tsaro, tarbiyya, da gudanarwa.
-`
+- 📧 Email: hisbahboardsokotooffice@gmail.com  
+- 🧑‍💻 GitHub: @abdulrazakumar215-atl
+
+---
+
+🌍 Support
+
+This project is supported by Hisbah Board Sokoto and aims to promote technology-driven governance in Nigeria. We hope this dashboard helps improve security, morality, and administration.
