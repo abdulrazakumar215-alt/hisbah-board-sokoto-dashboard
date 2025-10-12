@@ -28,9 +28,9 @@ hisbah-board-sokoto-dashboard/
 │   └── registration-form.html
 ├── assets/
 │   └── logo.png
-|-
-|-
-|-
+|-Contributing.md 
+|-Gitignore.md 
+|-changelog.mda
 
 > Lura: docs/ folder yana ɗauke da dashboard files don GitHub Pages.
 
