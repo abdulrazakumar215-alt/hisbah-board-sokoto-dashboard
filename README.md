@@ -1,4 +1,7 @@
-markdown
+✅ Final Version — README.md
+
+`markdown
+
 🛡️ Hisbah Board Sokoto Dashboard
 
 This dashboard app was created to support Hisbah Board Sokoto in tracking reports, registering staff, and managing operations efficiently. It is built with HTML, CSS, and JavaScript, and runs directly via GitHub Pages.
@@ -24,9 +27,14 @@ hisbah-board-sokoto-dashboard/
 ├── docs/
 │   ├── index.html
 │   ├── style.css
-│   └── dashboard.js
+│   ├── dashboard.js
+│   ├── translation.js
+│   └── translations.json
 ├── forms/
-│   └── registration-form.html
+│   ├── registration-form.html
+│   ├── admin-login.html
+│   ├── about.html
+│   └── faq.html
 ├── assets/
 │   └── logo.png
 ├── Contributing.md
@@ -34,7 +42,7 @@ hisbah-board-sokoto-dashboard/
 ├── changelog.md
 `
 
-> Note: The docs/ folder contains all dashboard files for GitHub Pages deployment.
+> 📌 Note: The docs/ folder contains all dashboard files for GitHub Pages deployment.
 
 ---
 
@@ -44,6 +52,7 @@ hisbah-board-sokoto-dashboard/
 - 📊 Report tracking and user registration count  
 - 🔍 Report filtering and search (coming soon)  
 - 🔐 Admin login and access control (coming soon)  
+- 🌍 Language switcher (Hausa ↔ English)  
 - 📱 Responsive UI for mobile and desktop  
 
 ---
@@ -51,21 +60,25 @@ hisbah-board-sokoto-dashboard/
 🛠️ How to Use
 
 Clone the repository:
+
 `bash
-git clone https://github.com/abdulrazakumar215-atl/hisbah-board-sokoto-dashboard.git
+git clone https://github.com/abdulrazakumar215-atl/hisbah-board-sokoto-dashboard/
 `
 
 Navigate to the folder:
+
 `bash
 cd hisbah-board-sokoto-dashboard
 `
 
 Open the dashboard in your browser:
+
 `bash
 docs/index.html
 `
 
 Build Android app (if using React Native version):
+
 `bash
 cd android
 ./gradlew assembleRelease
@@ -105,3 +118,8 @@ We welcome contributions from developers, testers, and users. You can:
 🌍 Support
 
 This project is supported by Hisbah Board Sokoto and aims to promote technology-driven governance in Nigeria. We hope this dashboard helps improve security, morality, and administration.
+
+---
+
+> ⏳ Note: I may be slow to respond, but I appreciate your interest and support.
+`
