@@ -42,3 +42,17 @@
     "hausa": "Hausa"
   }
 }
+{
+  "en": {
+    "dashboardTitle": "Hisbah Board Sokoto Dashboard",
+    "reportSummary": "Report Summary",
+    "english": "English",
+    "hausa": "Hausa"
+  },
+  "ha": {
+    "dashboardTitle": "Dashboard na Hukumar Hisbah Sokoto",
+    "reportSummary": "Taƙaitaccen Rahoto",
+    "english": "Turanci",
+    "hausa": "Hausa"
+  }
+}
